@@ -286,6 +286,15 @@ h6 {
   }
 }
 
+/* @media (max-width: 576px) {
+  #hero {
+    padding-left: 540px;
+    background: url("../img/mob-img.png") top right no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+} */
+
 #hero:before {
   content: "";
   background: rgba(255, 255, 255, 0);
@@ -361,6 +370,21 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-image {
+  width: 250px; /* Adjust the width as needed */
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.about-text {
+  text-align: left;
+  margin-left: 20px; /* Adjust the left margin as needed */
 }
 
 .section-title h2 {
