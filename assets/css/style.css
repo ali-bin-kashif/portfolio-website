@@ -249,6 +249,8 @@ h6 {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
+  background-color: #5271FF;
+  color: white;
 }
 
 .mobile-nav-toggle i {
@@ -274,7 +276,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/main-img.png") top right no-repeat;
+  background: url("../img/main-img2.png") top right no-repeat;
   background-size:cover;
   background-position: center right;
   position: relative;
@@ -282,18 +284,19 @@ h6 {
 
 @media (min-width: 992px) {
   #hero {
-    padding-left: 540px;
+    padding-left: 150px;
   }
 }
 
-/* @media (max-width: 576px) {
+@media (max-width: 768px) {
   #hero {
-    padding-left: 540px;
     background: url("../img/mob-img.png") top right no-repeat;
-    background-size:cover;
-    background-position: center;
+    /* background-size:cover; */
+    background-position:top;
+    background-size: contain;
+    align-items:start;
   }
-} */
+}
 
 #hero:before {
   content: "";
@@ -303,6 +306,43 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+}
+
+.hero-section{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.container #main-img {
+  width: 300px; /* Adjust width as needed */
+  margin-right: 40px; /* Adjust margin as needed */
+  border-radius: 50%; /* Make the image circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+.content {
+  flex: 1; /* Take remaining space */
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items vertically on mobile */
+    text-align: center; /* Center-align content */
+  }
+
+  .container #main-img {
+    margin-right: 0px; /* Adjust margin as needed */
+    width: 250px;
+  }
+
+  .hero-section{
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+  }
 }
 
 #hero h1 {
@@ -336,6 +376,19 @@ h6 {
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  #hero .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #hero .social-links a {
+    margin-right: 0px;
+
+  }
 }
 
 #hero .social-links a:hover {
@@ -475,6 +528,12 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
+.facts{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
@@ -490,7 +549,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: #5271FF;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
