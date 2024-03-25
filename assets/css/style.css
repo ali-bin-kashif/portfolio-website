@@ -574,13 +574,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
+}
+
+.skill-icon-img {
+  max-width: 50px; /* Adjust the max-width to make the images smaller */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .skills .progress .skill {
