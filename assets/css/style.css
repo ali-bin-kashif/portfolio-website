@@ -531,11 +531,11 @@ section {
 .facts{
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .facts .count-box {
-  padding: 30px 30px 25px 30px;
+  padding: 30px 10px 25px 10px;
   margin-top: 30px;
   width: 100%;
   position: relative;
@@ -582,11 +582,34 @@ section {
   background: none;
   border-radius: 0;
 }
-
-.skill-icon-img {
-  max-width: 50px; /* Adjust the max-width to make the images smaller */
-  height: auto; /* Maintain aspect ratio */
+.skill-icons{
+  margin-top: 10px;
+  display: flex;
+  gap:15px;
 }
+
+.skill-icon > p {
+  font-size: smaller; /* You can adjust the font size as needed */
+}
+
+
+.skill-section-type{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill-icon {
+  height: auto; /* Maintain aspect ratio */
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  text-align: center;
+  /* font-size: 10px; */
+}
+
 
 .skills .progress .skill {
   padding: 10px 0;
