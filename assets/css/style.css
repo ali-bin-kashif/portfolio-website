@@ -499,7 +499,7 @@ section {
   color: #728394;
 }
 
-.about .content ul {
+/* .about .content ul {
   list-style: none;
   padding: 0;
 }
@@ -519,7 +519,7 @@ section {
   margin-right: 5px;
   color: #0563bb;
   line-height: 0;
-}
+} */
 
 .about .content p:last-child {
   margin-bottom: 0;
@@ -855,6 +855,8 @@ section {
   right: 15px;
 }
 
+
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -924,6 +926,9 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -1051,6 +1056,17 @@ section {
 
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
+}
+
+.portfolio-details-lightbox{
+  padding-top: 15px;
+}
+
+.links-with-dashboard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1308,11 +1324,11 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #5271FF;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  padding: 9.5px 0;
+  margin-right: 8px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
