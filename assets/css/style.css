@@ -1307,12 +1307,12 @@ section {
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 15px 0 15px 0;
 }
 
 #footer p {
   font-size: 15;
-  font-style: italic;
+  /* font-style: italic; */
   padding: 0;
   margin: 0 0 40px 0;
 }
