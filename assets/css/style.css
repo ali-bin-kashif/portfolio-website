@@ -313,6 +313,11 @@ h6 {
   align-items: center;
 }
 
+.gif{
+  width: 350px;
+  float: left;
+}
+
 
 
 .container #main-img {
@@ -328,20 +333,26 @@ h6 {
 
 @media (max-width: 768px) {
   .container {
+    padding-top: 70px;
     flex-direction: column; /* Stack items vertically on mobile */
     text-align: center; /* Center-align content */
   }
 
   .container #main-img {
     margin-right: 0px; /* Adjust margin as needed */
-    width: 250px;
+    width: 200px;
   }
 
   .hero-section{
     /* margin-top: -200px; */
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap:20px;
+  }
+
+  .gif{
+    width: 200px;
+    float: left;
   }
 }
 
