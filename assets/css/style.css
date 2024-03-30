@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #5271FF;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -316,6 +316,7 @@ h6 {
 .gif{
   width: 350px;
   float: left;
+  margin-bottom: -50px;
 }
 
 
@@ -427,8 +428,8 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   /* padding: 40px 0; */
   overflow: hidden;
 }
@@ -482,6 +483,10 @@ section {
   /* .about-text > h3 {
     text-align: center;
   } */
+  .section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 .section-title h2 {
@@ -971,6 +976,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services{
+  margin-top: -50px;
+}
 .services .icon-box {
   display: flex;
   gap: 10px;
@@ -1204,6 +1213,7 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  text-align: left;
 }
 
 .contact .info i {
@@ -1226,6 +1236,7 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   color: #45505b;
+  
 }
 
 .contact .info p {
