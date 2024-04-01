@@ -466,6 +466,10 @@ section {
   margin-bottom: 10px;
 }
 
+.about-text > h5 {
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;
