@@ -314,9 +314,9 @@ h6 {
 }
 
 .gif{
-  width: 350px;
+  width: 360px;
   float: left;
-  margin-bottom: -50px;
+  margin-bottom: 0;
 }
 
 
@@ -449,7 +449,7 @@ section {
 
 
 .about-image {
-  width: 350px; /* Adjust the width as needed */
+  width: 400px; /* Adjust the width as needed */
   /* margin-bottom: 20px; Adjust the margin as needed */
   margin-right: 20px; /* Adjust the margin as needed */
 }
