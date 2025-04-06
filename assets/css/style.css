@@ -276,7 +276,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg-img.png") top right no-repeat;
+  background: url("../img/bg-img-2.png") top right no-repeat;
   background-size:cover;
   background-position: center right;
   position: relative;
@@ -325,7 +325,8 @@ h6 {
   width: 300px; /* Adjust width as needed */
   margin-right: 40px; /* Adjust margin as needed */
   border-radius: 50%; /* Make the image circular */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /*Add shadow*/
+  /* border: 5px solid #fff; Optional: add a border */
 }
 
 
