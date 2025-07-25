@@ -402,23 +402,31 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="resume-item">
+              
               <h4>Data Engineer</h4>
               <h5>November 2024 - Present</h5>
               <p><em>MarketLytics</em></p>
               <p>At <b>MarketLytics,</b> I specialize in developing scalable data solutions that drive actionable insights and operational and cost efficiency. My work involves building robust pipelines, integrating advanced analytics, and delivering impactful products for our clients.</p>
               <ul>
+                
+                <li>Collaborated with the DE team and built a data pipeline which ingest raw data from Stripe, PayPal, Shopify, Thrivecart, and Clickfunnels into BigQuery with incremental syncs. Created views in BigQuery with scheduled queries and Looker dashboards for unified revenue tracking, reducing manual revenue tracking time by 80% and delivering accurate, actionable reports for business stakeholders.</li>
+                <br>
+                <li>Led a complete refactor of a client’s data infrastructure that was previously scattered across 30+ Google Cloud Functions with no CI/CD or documentation. I consolidated these into a single FastAPI-based microservice, containerized with Docker, and deployed on Cloud Run. Using Terraform, I automated the entire infrastructure setup and introduced GitHub Actions for CI/CD, ensuring automated builds, testing, and deployments. I also integrated Slack alerts and structured logging for better observability. This transformation reduced deployment time by 80%, improved reliability, and made the system fully maintainable with clear version control and documentation.</li>
+                <br>
 
-                <li>Developed an e-commerce anomaly detection system, providing real-time insights into abnormal behaviours in the selected metrics with automated reports.</li>
-                <li>Designed and implemented a cost-effective data migration pipeline, transferring web analytics data from BigQuery to GCS and GCS to Snowflake, optimizing storage and compute costs.</li>
-                <li>Revived and brought the Muawin product (an anomaly detection Slack bot) into production, enhancing its functionality and impact.</li>
-
-                <li>Performed end-to-end Regression Analysis with Python, SQL, and Sklearn: Loaded and prepared data, feature engineering, used Logistic Regression/Random Forest Classifier and extracted the most important features which are impacting on Customer Life Time Value (LTV) in an E-commerce company.</li>
-
+                <li>Built and deployed Muawin, a real-time anomaly detection system that uses the SARIMA model to monitor key metrics of e-commerce and send automated Slack alerts and reports. The product was containerized with Docker, deployed on Cloud Run, and uses Flask as a backend.</li>
+                <br>
+                <li>Designed a cost-effective pipeline to migrate web analytics data from BigQuery → GCS → Snowflake, achieving 90% cost savings over the client’s existing solution.</li>
+                <br>
                 <li>Developed complex queries for data transformation and analytics in Databricks and Metabase, enabling data-driven decision-making for stakeholders.</li>
-
+                <br>
                 <li>Built an automated pipeline to fetch data from the GA4 API into BigQuery, enabling seamless integration of web analytics data for further analysis.</li>
-
-                <li>Built a real-time data pipeline which triggers with a website's webhook, gets the data, transforms it and sends it as events to GA4 with correct session mappings for web analytics purpose and e-commerce purchase attributions.</li>
+                <br>
+                <li>Implemented Slack Alerts system in data pipelines for notifications of successful runs and if any errors that occurred, so that prompt action can be made.</li>
+                <br>
+                <li>Built a real-time revenue attribution pipeline triggered by webhooks, transforming and sending session-mapped data into GA4.</li>
+                <br>
+                <li>Built custom GPTs and chatbots integrated with BigQuery, allowing clients to chat with their data and instantly generate tables, visualizations, and aggregated data and get quick insights simply by writing prompts.</li>
                 <br>
               </ul>
             </div>
