@@ -426,6 +426,8 @@
                 <br>
 
                 <li>Led a complete refactor of a client's data infrastructure that was previously scattered across 30+ Google Cloud Functions with no CI/CD or documentation. I consolidated these into a single FastAPI-based microservice, containerized with Docker, and deployed on Cloud Run. Using Terraform, automated the entire infrastructure setup and introduced GitHub Actions for CI/CD, ensuring automated builds, testing, and deployments. Integrated Slack alerts and structured logging for better observability. This transformation reduced deployment time by 80%, improved reliability, and made the system fully maintainable with clear version control and documentation.</li>
+
+                <li>- Implemented data partitioning and clustering in the production tables in the gold layer of data warehouse and built a scalable API for serving Marketing Modelling Mix (MMM) data to the end users of mobile application using Fast API, dockerized and deployed on Cloud Run reducing query time by 60%.</li>
                 <br>
               </ul>
             </div>
@@ -441,7 +443,7 @@
               <p>At <b>MarketLytics,</b>I specialize in building scalable data solutions that unlock insights, improve efficiency, and reduce operational costs. My work involves building robust pipelines, integrating advanced analytics, and delivering impactful products and solve critical data problems for our clients.</p>
               <ul>
                 
-                <li>Co-developed a multi-source revenue tracking system ingesting Stripe, PayPal, Shopify, Thrivecart & Clickfunnels into BigQuery; built unified revenue-tracking Looker dashboard that reduced manual tracking effort by 80%.</li>
+                <li>Developed a multi-source revenue tracking pipeline ingesting Stripe, PayPal, Shopify, Thrivecart & Clickfunnels data into BigQuery; created scheduler queries for data modelling and transformation and built Looker dashboards for a unified view that reduced manual revenue tracking effort by 80%.</li>
                 <br>
 
                 <li>Reduced costs by 90% with a BigQuery → GCS → Snowflake migration pipeline, replacing an inefficient client’s existing solution.</li>
@@ -450,7 +452,7 @@
                 <li>Built and deployed Muawin, a real-time anomaly detection system that uses the SARIMA model to monitor key metrics of e-commerce and send automated Slack alerts and reports. The product was containerized with Docker, deployed on Cloud Run, and uses Flask as a backend. It helps clients monitor their web analytics data effectively, enhancing their ability to respond swiftly and accurately to data irregularities.</li>
                 <br>
 
-                <li>Built a real-time revenue attribution pipeline triggered by webhooks, transforming and sending session-mapped data into GA4.</li>
+                <li>Developed a real-time revenue attribution pipeline (webhooks → BigQuery → GA4) achieving 95% accuracy, with PII anonymisation via hashing.</li>
                 <br>
 
                 <li>Built custom GPTs and chatbots integrated with BigQuery, allowing clients to chat with their data and instantly generate tables, visualizations, and aggregated data and get quick insights simply by writing prompts.</li>
@@ -459,8 +461,7 @@
                 <li>Developed complex queries for data transformation and analytics in Databricks and Metabase, enabling data-driven decision-making for stakeholders.</li>
                 <br>
                 <li>Migrated data transformation layer from scheduled BigQuery queries to dbt Cloud, enabling proper lineage, version control, which improved collaboration across teams and query management.</li>
-                <br>
-                <li>Implemented Slack Alerts system in data pipelines for notifications of successful runs and if any errors that occurred, so that prompt action can be made.</li>
+
                 <br>
                 
                 
@@ -471,8 +472,18 @@
             <br>
             <div class="resume-item">
               <h4>Freelance Data Scientist/Analyst</h4>
-              <h5>Nov 2023 - Nov 2024</h5>
+              <h5>Dec 2023 - Nov 2024</h5>
               <p><em>Upwork</em></p>
+
+              <ul>
+                <li>Developed an anomaly detection system (Prophet, Flask, Cloud Run,
+                Docker) with Slack alerts, helping client detect irregularities in real time.
+                </li>
+                <br>
+                <li>Built web scrapers for E-Commerce sites in Python using Scrapy and BS.</li>
+                <br>
+                <li>Built data extraction scripts to extract data from unstructured data like PDFs to a structured format like CSVs, JSON, XML etc.</li>
+                <br>
             </div>
 
             <hr>
